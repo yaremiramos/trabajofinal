@@ -1,0 +1,70 @@
+<html>
+	<head>
+	<title>Tr, Td, Th</title>	
+	
+		<body bgcolor = "gray">
+		<center><font size = "15"><b>Tr Td Th</b></font></center>
+		
+		
+	
+
+<br><font color= "Black" ,size="03" , face="Arial"> 
+Las filas: <tr> <br>
+Como hemos visto en el encabezado las filas se escriben gracias a las etiquetas <tr> con su correspondiente cierre </tr>. El contenido de las columnas que están dentro de la fila lo podemos alínear tanto horizontal como verticalmente.
+
+Para alinearlo verticalmente utilizaremos el atributo “valign” para poder alinearlo arriba de la celda (“top”), en el centro (“middle”) o debajo (“bottom”).
+
+Para alinearlo horizontalmente utilizaremos el atributo “align”. Con este atributo podremos alinear el contenido de las celdas en el centro (“center”), a la izquierda (“left”), a la derecha (“right”) o justificado (“justify”).
+
+Por supuesto a las filas también les podemos definir el color de fondo (“bgcolor”) y el color del borde (“bordercolor”).
+<br>
+Las celdas <td><br>
+Las celdas que van dentro de cada fila las tenemos que escribirlas con la etiqueta <td> y su correspondiente cierre </td>.
+
+Al igual que en las filas, en las celdas podemos definir el la alineación del contenido que está dentro con los atributos “valign” y “align”.
+
+Las celdas poseen unos atributos que nos ayudan a poder agrupar tantas celdas o tantas columnas como indiquemos en él. Para agrupar celdas utilizaríamos el atributo “colspan” y para agrupar celdas el atributo “rowspan”.
+
+Por ejemplo, para agrupar en una celda 2 columnas tenemos que escribir: <td colspan=”2″></td>. Y para agrupar dos filas, la indicación sería la siguiente: <td rowspan= “2”></td>.
+<br>
+Las celdas <th><br>
+Las celdas escritas con la etiqueta <th> y su correspondiente cierre, admiten los mismos atributos que las etiquetas <td> y funcionan de la misma forma, salvo que el contenido que esté dentro de una etiqueta <th> está considerado como el encabezado de la tabla, por lo que se creará en negrita y centrado sin que nosotros se lo indiquemos.
+
+A continuación vamos a ponerte un pequeño ejemplo de una tabla que combina todas las cosas 
+que hemos ido viendo en el artículo. Estúdiate primero el código, visualiza cómo quedaría 
+la tabla y luego mírala:<font/>
+<table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+
+<tr>
+
+<th>Encabezado 1</th>
+
+<th>Encabezado 2</th>
+
+<th>Encabezado 3</th>
+
+</tr>
+
+<tr>
+
+<td rowspan="2" valign="middle" align="left">Este texto está alineado al centro
+
+verticalmente y a la izquierda horizontalmente</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">&nbsp;</td>
+
+</tr>
+
+</table>
+
+<a href="indice2.html">
+  		<font size="13"> <font color="930093"> <font face="georgia">
+			Indice</font> </font> </font>
